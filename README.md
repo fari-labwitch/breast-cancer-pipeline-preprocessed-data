@@ -60,6 +60,11 @@ All figures are automatically saved as high-resolution PNGs:
 ### Prerequisites
 Make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/) installed on your machine.
 
+### Data Setup
+Before executing the pipeline, you need to download and set up the pre-processed breast cancer dataset:
+1. Download the data sample package from the [Breast Cancer scRNA-seq Dataset Link](https://1drv.ms/u/c/30fcedf48cd35cea/IQC2roPcIGrCQpMr7Z-wwFuxAZ0A59o0ExXrH0k_bfgs7pM?e=x1nJru).
+2. Unzip the downloaded archive and place the dataset file (specifically `bc`) into the `data/` folder in the project root directory.
+
 ### Execution
 
 To run the pipeline and generate the figures, execute the following commands in your terminal from the project root directory:
