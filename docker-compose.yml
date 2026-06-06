@@ -1,0 +1,8 @@
+services:
+  breast-cancer-pipeline:
+    build: .
+    image: breast-cancer-pipeline:latest
+    container_name: breast_cancer_container
+    volumes:
+      # Mounts the whole project workspace so outputs are directly accessible on your host machine
+      - .:/workspace
